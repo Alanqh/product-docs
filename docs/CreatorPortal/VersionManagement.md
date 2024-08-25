@@ -31,9 +31,49 @@
 
 ![CleanShot 2023-09-25 at 11.14.57@2x](https://arkimg.ark.online/CleanShot%202023-09-25%20at%2011.14.57@2x.webp)
 
-### 自定义加载图
+### 自定义加载界面
+039引擎后创作者可按照版本设置自定义加载界面。  
 
-039引擎后创作者可按照版本添加自定义加载图片。
+#### 简单介绍
+* 加载界面的主要功能是告知玩家游戏正在加载，并提供视觉上的反馈以减少等待时间的无聊感。游戏启动以及游戏内的场景跳转都会拉起加载界面，为优化体验，我们将在039引擎后允许创作者自定义各个场景的加载界面。
+* 创作者在编辑游戏信息时，可以在【其他设置-场景信息】处编辑【默认加载界面】或单独编辑【场景加载界面】。 
+* 创作者可编辑的内容包括背景图和轮播文案。背景图推荐使用的图片格式为.png和.jpg，轮播文案可至多添加5条，每条至多编辑30个汉字。  
+* 可以个性化游戏的加载界面，增添游戏的趣味和吸引力，但注意不要违规哦（**提交时会有审核！！！**）  
+
+#### 效果展示
+*未进行自定义加载界面的配置：官方默认背景图+无Tips*
+![image](https://github.com/user-attachments/assets/a17116da-5f5d-4d99-a6e8-6774dd99ab50)
+*自定义加载界面之后：*
+![image](https://github.com/user-attachments/assets/d81149fa-b2bc-44e4-95c6-a1de71ab4a2d)
+
+
+#### 操作步骤
+
+1. 提审游戏，进入游戏信息的编辑页面，在【其他设置-场景信息】的右上角找到【编辑】按钮
+     ![image](https://github.com/user-attachments/assets/5ff28c43-bf7e-4596-b974-cf1fa9154070)
+2. 选择对默认加载界面进行编辑
+   1. 选择使用官方提供：此时只能查看，不能编辑文案或是修改背景图
+	  ![image](https://github.com/user-attachments/assets/2548574b-4670-41ff-9a72-44d38a132708)
+   2. 选择自定义默认加载界面：此时可上传背景图，推荐尺寸1080x1920，大小不要超过1M；可编辑至多5条文案，每条文案不能超过30字，并在预览图中查看文案轮播效果
+	 ![image](https://github.com/user-attachments/assets/8160cec9-56e4-4448-b5c1-1e80328ac3c0)
+   3. 点击一键同步素材，可将默认语言的加载背景图同步至其他语言；点击一键翻译，可将默认语言的加载文案同步至其他语言。注意有些简短的中文翻译成其他语言后可能会超过长度限制哦！
+	 ![image](https://github.com/user-attachments/assets/5d3b58ce-cdcf-4cbf-9cdd-84c746876a82)
+3. 编辑场景加载界面
+   1. 使用默认配置：表示该场景不进行单独配置，使用当前游戏的默认加载界面
+	  ![image](https://github.com/user-attachments/assets/6f361e38-df28-43c5-8875-d06470d95369)
+   2. 自定义场景加载界面：
+	  ![image](https://github.com/user-attachments/assets/c1aa3d4d-5687-4bc1-b1a7-cdc9b20566af)
+4. 点击【提交】按钮，提交审核，此时在【其他设置-场景信息】出现【审核中】标志，审核中不可再进行编辑，游戏提审不必等待加载界面的审核完成，若游戏上线后，加载界面处于审核中或未过审，游戏将使用官方配置，加载界面审核通过后将直接应用在游戏中。
+  ![image](https://github.com/user-attachments/assets/4117212f-773c-401f-bf21-ab0ca078a3cc)
+5. 审核成功或审核失败：创作者将在系统通知中收到加载界面的审核结果
+![image](https://github.com/user-attachments/assets/bfc4b785-664e-41b7-8a50-cb1f188813c8)
+![image](https://github.com/user-attachments/assets/c408ffb7-a8aa-4974-8d00-bddc116c4ae1)
+![image](https://github.com/user-attachments/assets/6afcb625-936d-42c6-8055-f518f5786a60)
+![image](https://github.com/user-attachments/assets/34f427c2-ebd1-4fa3-9f89-579e45fafc81)
+7. 点击版本管理，操作处会有【编辑加载界面】的按钮。点击可打开编辑窗口，若当前版本游戏存在处于审核中的加载界面配置，则不能提交
+ ![image](https://github.com/user-attachments/assets/6b2c9399-8be3-4e80-a6af-02d7d70773c6)
+ 
+
 
 ## 版本更新
 
